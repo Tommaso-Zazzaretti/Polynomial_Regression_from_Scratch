@@ -26,7 +26,7 @@ E si può controllare visivamente se l'andamento è corretto:
     <img width="450px" src="imgs/poly.png" title="gauss2" />
 </p>
 
-A schermo vengono mostrati i pesi computati e una misura di validazione del modello (MSE).
+Su console vengono mostrati i pesi computati e una misura di validazione del modello (MSE).
 
 Per controllare se vi è Overfitting viene fatta la validazione sia sui dati del training set che sui dati del test Set:
 
