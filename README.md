@@ -36,7 +36,7 @@ Per controllare se vi è Overfitting viene fatta la validazione sia sui dati del
 
 # Sviluppi futuri #
 
-  - ***Scelta del modello***: In questo momento è scelto come modello un polinomio di grado 7. Ma la scelta del modello deve essere validata. Occorre estrarre dal dataset anche un validation Set da utilizzare solo per il calcolo del modello migliore da utilizzare.
+  - ***Scelta del modello***: In questo momento è scelto come modello un polinomio di grado 7. Ma la scelta del modello deve essere validata. Occorre estrarre dal dataset anche un validation Set da utilizzare solo per la scelta del modello migliore da utilizzare (lineare, quadratico,.... gradoN).
  
   - ***Regolarizzazione***: Per prevenire ulteriormente l'overfitting occorre regolarizzare la L2 Loss aggiungendo un termine che costituisce il modulo del gradiente al quadrato e cambiare quindi le derivate parziali. (Tipicamente in overfitting i pesi divergono verso valori altissimi)
    
